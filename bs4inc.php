@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Bootstrap 4 CDN
-Plugin URI:  https://developer.wordpress.org/plugins/the-basics/
+Plugin URI:  https://github.com/karskiy/bs4cdn
 Description: Плагин отключает библиотеку jQuery поставляемую с WordPress и подрубает 3-ю версию + CSS и JS Bootstrap 4
 Version:     20170416
 Author:      Karskiy
-Author URI:  https://developer.wordpress.org/
+Author URI:  https://profiles.wordpress.org/karsky
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: bs4inc
@@ -14,7 +14,7 @@ Domain Path: /languages
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-//Create a function called "wporg_init" if it doesn't already exist
+//Create a function called "krs_bs4" if it doesn't already exist
 if ( !function_exists( 'krs_bs4' ) ) {
     function krs_bs4() {
 		/**
